@@ -1,17 +1,6 @@
 <p align="center">
 
   <h1 align="center">Mip-Splatting: 无锯齿的3D高斯溅射</h1>
-  <p align="center">
-    <a href="https://niujinshuchong.github.io/">虞泽浩</a>
-    ·
-    <a href="https://apchenstu.github.io/">陈安培</a>
-    ·
-    <a href="https://github.com/hbb1">黄彬彬</a>
-    ·
-    <a href="https://tsattler.github.io/">Torsten Sattler</a>
-    ·
-    <a href="http://www.cvlibs.net/">Andreas Geiger</a>
-
   </p>
   <h2 align="center">CVPR 2024 最佳学生论文</h2>
 
@@ -91,7 +80,6 @@ python create_fused_ply.py -m {model_dir}/{scene} --output_ply fused/{scene}_fus
 如果您发现我们的代码或论文有用，请引用
 ```bibtex
 @InProceedings{Yu2024MipSplatting,
-    author    = {Yu, Zehao and Chen, Anpei and Huang, Binbin and Sattler, Torsten and Geiger, Andreas},
     title     = {Mip-Splatting: Alias-free 3D Gaussian Splatting},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
@@ -102,7 +90,6 @@ python create_fused_ply.py -m {model_dir}/{scene} --output_ply fused/{scene}_fus
 如果您发现我们改进的致密化度量有用，请一并引用
 ```
 @article{Yu2024GOF,
-  author    = {Yu, Zehao and Sattler, Torsten and Geiger, Andreas},
   title     = {Gaussian Opacity Fields: Efficient High-quality Compact Surface Reconstruction in Unbounded Scenes},
   journal   = {arXiv:2404.10772},
   year      = {2024},
