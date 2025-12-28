@@ -1,0 +1,36 @@
+*.pyc
+.vscode
+output
+build
+diff_rasterization/diff_rast.egg-info
+diff_rasterization/dist
+tensorboard_3d
+screenshots
+nerf_synthetic
+multi-scale
+360_v2
+benchmark*
+debug*
+fused
+
+# Python
+__pycache__/
+*.py[co]
+*.log
+.Python
+.venv/
+env/
+venv/
+*.egg-info
+
+# Large data files
+*.ply
+*.bin
+*.txt
+*.json
+*.pt
+*.pth
+*.zip
+*.tar.gz
+*.sqlite
+*.db
